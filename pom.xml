@@ -32,6 +32,7 @@
         </plugins>
     </build>
 
+    <!--    生成的包名-->
     <groupId>org.example</groupId>
     <artifactId>IotForTecentBeep</artifactId>
     <version>1.0-SNAPSHOT</version>
