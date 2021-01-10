@@ -1,0 +1,53 @@
+10/01/2021 22:28:09,135 [main] INFO  TXDataTemplateJson 82  - TX_TEMPLATE_JSON_1.2.1
+10/01/2021 22:28:09,143 [main] INFO  TXDataTemplateJson 83  - TX_TEMPLATE_JSON_1.2.1
+10/01/2021 22:28:09,143 [main] INFO  TXDataTemplateJson 84  - TX_TEMPLATE_JSON_1.2.1
+10/01/2021 22:28:09,148 [main] INFO  DataTemplateSample 89  - TXDataTemplate
+10/01/2021 22:28:10,628 [main] INFO  TXMqttConnection 244  - Start connecting to ssl://iotcloud-mqtt.gz.tencentdevices.com:8883
+10/01/2021 22:28:11,243 [main] INFO  TXMqttConnection 248  - wait_for completion return
+10/01/2021 22:28:11,244 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 214  - onSuccess!
+10/01/2021 22:28:11,244 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 577  - connectComplete. reconnect flag is false
+10/01/2021 22:28:11,245 [main] INFO  TXMqttConnection 452  - Starting subscribe topic: %s$thing/down/property/64ONICJ3N8/my_pi
+10/01/2021 22:28:11,248 [main] INFO  TXMqttConnection 452  - Starting subscribe topic: %s$thing/down/event/64ONICJ3N8/my_pi
+10/01/2021 22:28:11,249 [main] INFO  TXMqttConnection 452  - Starting subscribe topic: %s$thing/down/action/64ONICJ3N8/my_pi
+10/01/2021 22:28:11,249 [main] INFO  TXMqttConnection 398  - Starting publish topic: %s Message: %s
+10/01/2021 22:28:11,251 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 662  - deliveryComplete, token.getMessageId:0
+10/01/2021 22:28:11,361 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 638  - Received topic: %s, id: %d, message: %s$thing/down/property/64ONICJ3N8/my_pi0{"method":"clear_control_reply","clientToken":"64ONICJ3N8my_pi3","code":0,"status":"success"}
+10/01/2021 22:28:11,361 [MQTT Call: 64ONICJ3N8my_pi] DEBUG TXDataTemplate 485  - TXDATATEMPLATE
+10/01/2021 22:28:11,362 [MQTT Call: 64ONICJ3N8my_pi] DEBUG TXDataTemplate 466  - TXDATATEMPLATE
+10/01/2021 22:28:26,851 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 638  - Received topic: %s, id: %d, message: %s$thing/down/property/64ONICJ3N8/my_pi0{"method":"control","clientToken":"clientToken-a48b29c1-5ef3-4329-83ea-43d3cde5b5fd","params":{"beep_switch":1}}
+10/01/2021 22:28:26,851 [MQTT Call: 64ONICJ3N8my_pi] DEBUG TXDataTemplate 485  - TXDATATEMPLATE
+10/01/2021 22:28:26,852 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 398  - Starting publish topic: %s Message: %s
+10/01/2021 22:28:26,874 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 662  - deliveryComplete, token.getMessageId:4
+10/01/2021 22:28:58,530 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 638  - Received topic: %s, id: %d, message: %s$thing/down/property/64ONICJ3N8/my_pi0{"method":"control","clientToken":"clientToken-4a094b4e-d798-4bea-b18a-9d0be22a2793","params":{"beep_switch":0}}
+10/01/2021 22:28:58,530 [MQTT Call: 64ONICJ3N8my_pi] DEBUG TXDataTemplate 485  - TXDATATEMPLATE
+10/01/2021 22:28:58,531 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 398  - Starting publish topic: %s Message: %s
+10/01/2021 22:28:58,555 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 662  - deliveryComplete, token.getMessageId:5
+10/01/2021 22:34:00,436 [main] INFO  TXDataTemplateJson 82  - TX_TEMPLATE_JSON_1.2.1
+10/01/2021 22:34:00,439 [main] INFO  TXDataTemplateJson 83  - TX_TEMPLATE_JSON_1.2.1
+10/01/2021 22:34:00,440 [main] INFO  TXDataTemplateJson 84  - TX_TEMPLATE_JSON_1.2.1
+10/01/2021 22:34:00,444 [main] INFO  DataTemplateSample 89  - TXDataTemplate
+10/01/2021 22:34:01,789 [main] INFO  TXMqttConnection 244  - Start connecting to ssl://iotcloud-mqtt.gz.tencentdevices.com:8883
+10/01/2021 22:34:02,364 [main] INFO  TXMqttConnection 248  - wait_for completion return
+10/01/2021 22:34:02,365 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 214  - onSuccess!
+10/01/2021 22:34:02,365 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 577  - connectComplete. reconnect flag is false
+10/01/2021 22:34:02,366 [main] INFO  TXMqttConnection 452  - Starting subscribe topic: %s$thing/down/property/64ONICJ3N8/my_pi
+10/01/2021 22:34:02,368 [main] INFO  TXMqttConnection 452  - Starting subscribe topic: %s$thing/down/event/64ONICJ3N8/my_pi
+10/01/2021 22:34:02,368 [main] INFO  TXMqttConnection 452  - Starting subscribe topic: %s$thing/down/action/64ONICJ3N8/my_pi
+10/01/2021 22:34:02,368 [main] INFO  TXMqttConnection 398  - Starting publish topic: %s Message: %s
+10/01/2021 22:34:02,370 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 662  - deliveryComplete, token.getMessageId:0
+10/01/2021 22:34:02,476 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 638  - Received topic: %s, id: %d, message: %s$thing/down/property/64ONICJ3N8/my_pi0{"method":"clear_control_reply","clientToken":"64ONICJ3N8my_pi3","code":0,"status":"success"}
+10/01/2021 22:34:02,477 [MQTT Call: 64ONICJ3N8my_pi] DEBUG TXDataTemplate 485  - TXDATATEMPLATE
+10/01/2021 22:34:02,477 [MQTT Call: 64ONICJ3N8my_pi] DEBUG TXDataTemplate 466  - TXDATATEMPLATE
+10/01/2021 22:34:18,823 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 638  - Received topic: %s, id: %d, message: %s$thing/down/property/64ONICJ3N8/my_pi0{"method":"control","clientToken":"clientToken-af78f6f8-eabd-4f10-a8b8-acf857ebf8d3","params":{"beep_switch":0}}
+10/01/2021 22:34:18,824 [MQTT Call: 64ONICJ3N8my_pi] DEBUG TXDataTemplate 485  - TXDATATEMPLATE
+10/01/2021 22:34:18,825 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 398  - Starting publish topic: %s Message: %s
+10/01/2021 22:34:18,841 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 662  - deliveryComplete, token.getMessageId:4
+10/01/2021 22:37:33,203 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 638  - Received topic: %s, id: %d, message: %s$thing/down/property/64ONICJ3N8/my_pi0{"method":"control","clientToken":"clientToken-426e42b8-f095-4e20-8953-c137ee31dfed","params":{"beep_switch":0}}
+10/01/2021 22:37:33,203 [MQTT Call: 64ONICJ3N8my_pi] DEBUG TXDataTemplate 485  - TXDATATEMPLATE
+10/01/2021 22:37:33,204 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 398  - Starting publish topic: %s Message: %s
+10/01/2021 22:37:33,222 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 662  - deliveryComplete, token.getMessageId:5
+10/01/2021 22:43:34,904 [MQTT Rec: 64ONICJ3N8my_pi] ERROR TXMqttConnection 607  - connection lost because of: %s已断开连接 (32109) - java.io.EOFException
+10/01/2021 22:43:36,448 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 577  - connectComplete. reconnect flag is true
+10/01/2021 22:43:36,448 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 589  - subscribe to %s...$thing/down/property/64ONICJ3N8/my_pi
+10/01/2021 22:43:36,449 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 589  - subscribe to %s...$thing/down/action/64ONICJ3N8/my_pi
+10/01/2021 22:43:36,449 [MQTT Call: 64ONICJ3N8my_pi] INFO  TXMqttConnection 589  - subscribe to %s...$thing/down/event/64ONICJ3N8/my_pi

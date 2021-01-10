@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "profile": {
+    "ProductId": "64ONICJ3N8",
+    "CategoryId": "1"
+  },
+  "properties": [
+    {
+      "id": "beep_switch",
+      "name": "蜂鸣器",
+      "desc": "蜂鸣器开关",
+      "mode": "rw",
+      "define": {
+        "type": "bool",
+        "mapping": {
+          "0": "关",
+          "1": "开"
+        }
+      },
+      "required": false
+    }
+  ],
+  "events": [],
+  "actions": []
+}
